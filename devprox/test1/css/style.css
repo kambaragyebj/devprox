@@ -1,0 +1,14 @@
+.error {
+    border: solid 1px #FF0000;  
+}
+.label_name {
+   color:red;
+}
+h1 {
+   text-align: center;
+}
+.navbar-devprox {
+    background-color: #F8F8F8;
+    border-color: #E7E7E7;
+    margin-top: 10px;
+}
