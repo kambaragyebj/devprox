@@ -1,0 +1,93 @@
+<html>
+    <head>
+        <title>outsourcing</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" rel="stylesheet">
+        <link href='https://fonts.googleapis.com/css?family=Lato:300,400,700' rel='stylesheet' type='text/css'>
+         <link rel="stylesheet" type="text/css" href="css/style.css">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+        <script src="https://cdn.jsdelivr.net/npm/jquery-validation@1.19.0/dist/jquery.validate.js"></script>
+        <script type="text/javascript" src="js/contact.js"></script>
+    </head>
+    <body>
+
+        <div class="container ">
+        <nav class="navbar navbar-light navbar-devprox">
+         <h1>Devprox Outsourcing-In-House</h1>
+       </nav>
+
+            <div class="row">
+
+                <div class="col-sm-6 col-sm-offset-3">
+
+                    <div id="contact_id" method="post" role="form">
+
+                        <div class="messages"></div>
+
+                        <div class="controls">
+
+                            <div class="row">
+                                <div class="col-sm-12">
+                                    <div class="form-group">
+                                        <label class="label_name" for="form_name">First Name *</label>
+                                        <input id="first_name" type="text" name="name" class="form-control form-control-lg" placeholder="Please enter your firstname *" required="required" data-error="Firstname is required.">
+                                        <div class="help-block with-errors"></div>
+                                    </div>
+                                </div>
+                              
+                            </div>
+                            <div class="row">
+                                <div class="col-sm-12">
+                                    <div class="form-group">
+                                        <label  class="label_name"for="form_lastname">Last Name *</label>
+                                        <input id="last_name" type="text" name="surname" class="form-control form-control-lg" placeholder="Please enter your lastname *" required="required" data-error="Lastname is required.">
+                                        <div class="help-block with-errors"></div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="col-sm-12">
+                                    <div class="form-group">
+                                        <label class="label_name"for="form_id_number">ID Number *</label>
+                                        <input id="id_number" type="text" name="id_number" min="13" max="13"  class="form-control form-control-lg" placeholder="Please enter your id number *" required="required" data-error="Id number is required.">
+                                        <div class="help-block with-errors"></div>
+                                    </div>
+                                </div>
+                              </div>
+                               <div class="row">
+                                <div class="col-sm-12">
+                                    <div class="form-group">
+                                        <label class="label_name" for="form_birth">Date Of Birth *</label>
+                                        <input id="date_of_birth" type="text" name="form_birth" class="form-control form-control-lg" placeholder="Please enter your date of birth using this format, dd/mm/YYYY *" required="required" data-error="Date of birth is required.">
+                                        <div class="help-block with-errors"></div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="col-sm-6">
+                                   <input type="submit" id ="reset_info" class="btn btn-danger btn-reset"  value="Reset"> 
+                                </div>
+                                <div class="col-sm-6 ">
+                                    <input type="submit" id ="capture_info" class="btn btn-primary btn-send" style="float: right;" value="Capture">
+                                    
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="col-sm-12">
+                                    <p class="text-muted"><strong>*</strong> These fields are required.</p>
+                                </div>
+                            </div>
+                        </div>
+
+                    </div>
+
+                </div>
+
+            </div> 
+
+        </div> 
+    </body>
+</html>
