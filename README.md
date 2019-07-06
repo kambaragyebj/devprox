@@ -18,4 +18,6 @@
 
 8. Customer table with 3 recorded is in test 1 folder
 
+9. I am trying to master git flow and become more confident.
+
 
